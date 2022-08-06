@@ -32,5 +32,195 @@
                 }
             ]
         }
+    },
+    "layanan": {
+        "responseCode": "RSx700003",
+        "responseMessage": "Ferizy Service - RsRsServiceRf Sukses",
+        "responseReferenceNo": "60227bd25442470fac6f26fba7fe1fa7",
+        "layanan": {
+            "id": "layanan",
+            "name": "Layanan",
+            "imgUrl": "http://www.asdp.com/1111",
+            "data": [
+                {
+                    "id": "reguler",
+                    "name": "Reguler"
+                }
+            ]
+        }
+    },
+    "penumpang": {
+        "responseCode": "RSx700005",
+        "responseMessage": "Ferizy Service - RsRsPassengerCategoryRf Sukses",
+        "responseReferenceNo": "124084d1e35946b8984e332d0c197d6b",
+        "penumpang": {
+            "id": "penumpang",
+            "name": "Penumpang",
+            "data": [
+                {
+                    "serviceName": "Dewasa Ekonomi",
+                    "serviceCode": "DEWASA",
+                    "description": ">5 Tahun"
+                },
+                {
+                    "serviceName": "Bayi",
+                    "serviceCode": "BAYI",
+                    "description": "0 - 2 Tahun"
+                }
+            ]
+        }
+    },
+    "pilihMetodePembayaran": {
+        "responseCode": "RSx700013",
+        "responseMessage": "Ferizy Service - RsRsPaymentOptionRf Sukses",
+        "responseReferenceNo": "01b5014719fe41fb99fa0705e217caac",
+        "pilihMetodePembayaran": {
+            "id": "pilih-metode-pembayaran",
+            "name": "Pilih Metode Pembayaran",
+            "data": [
+                {
+                    "id": "e-money",
+                    "name": "E-Money",
+                    "detail": [
+                        {
+                            "set_id": "stg210726142606",
+                            "provider": "ESPAY",
+                            "methode": "e-Money",
+                            "channel": "DANA PAY",
+                            "channel_id": "pychn210726142335",
+                            "bank": "BANK MANDIRI",
+                            "admin_fee": "0"
+                        },
+                        {
+                            "set_id": "stg210725204251",
+                            "provider": "ESPAY",
+                            "methode": "e-Money",
+                            "channel": "Link Aja Applink",
+                            "channel_id": "pychn210725203732",
+                            "bank": "BANK MANDIRI",
+                            "admin_fee": "0"
+                        }
+                    ]
+                },
+                {
+                    "id": "virtual-account",
+                    "name": "Virtual Account",
+                    "detail": [
+                        {
+                            "set_id": "stg210705010806",
+                            "provider": "ESPAY",
+                            "methode": "Virtual Account",
+                            "channel": "BCA VA Online",
+                            "channel_id": "pychn210628233843",
+                            "bank": "BANK BCA",
+                            "admin_fee": "0"
+                        },
+                        {
+                            "set_id": "stg210630015714",
+                            "provider": "ESPAY",
+                            "methode": "Virtual Account",
+                            "channel": "BII VA",
+                            "channel_id": "pychn210630015611",
+                            "bank": "BANK MAYBANK (BII)",
+                            "admin_fee": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "rincianPenumpang": {
+        "responseCode": "RSx700011",
+        "responseMessage": "Ferizy Service - RsRsPeduliLindungiRf Sukses",
+        "responseReferenceNo": "01b5014719fe41fb99fa0705e217caac",
+        "rincianPenumpang": {
+            "id": "rincian-penumpang",
+            "name": "Rincian Penumpang",
+            "data": [
+                {
+                    "nik": "3175082806970004",
+                    "name": "Joko Kuncoro",
+                    "vaccine": "2",
+                    "vaccineDetail": "Dosis ke-2",
+                    "status": "Terverifikasi"
+                },
+                {
+                    "nik": "3201134207990008",
+                    "name": "Dhimas",
+                    "vaccine": "3",
+                    "vaccineDetail": "Dosis ke-3",
+                    "status": "Terverifikasi"
+                }
+            ]
+        }
+    },
+    "pelabuhanAsal": {
+        "responseCode": "RSx700001",
+        "responseMessage": "Ferizy Service - RsRsOriginRf Sukses",
+        "responseReferenceNo": "04ad4af3816143d795c12530c519c654",
+        "pelabuhanAsal": {
+            "id": "pelabuhan-asal",
+            "name": "Pelabuhan Asal",
+            "data": [
+                {
+                    "harbor": "Ajibata",
+                    "city": "Sibolga"
+                },
+                {
+                    "harbor": "Ambarita",
+                    "city": "Sibolga"
+                }
+            ]
+        }
+    },
+    "pelabuhanTujuan": {
+        "responseCode": "RSx700002",
+        "responseMessage": "Ferizy Service - RsRsDestinationRf Sukses",
+        "responseReferenceNo": "72e6dd26dab943e2a00605a8dba0fbd7",
+        "pelabuhanTujuan": {
+            "id": "pelabuhan-tujuan",
+            "name": "Pelabuhan Tujuan",
+            "data": [
+                {
+                    "harbor": "Ajibata",
+                    "city": "Sibolga"
+                },
+                {
+                    "harbor": "Ambarita",
+                    "city": "Sibolga"
+                }
+            ]
+        }
+    },
+    "jadwalMasukPelabuhan": {
+        "responseCode": "RSx700006",
+        "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Sukses",
+        "responseReferenceNo": "5a67dc9fd5024c609d1ac9ddf08fdac9",
+        "jadwalMasukPelabuhan": {
+            "id": "jadwal-masuk-pelabuhan",
+            "name": "Jadwal Masuk Pelabuhan (Check In)",
+            "tanggalMulai": "2021-08-03",
+            "tanggalSelesai": "2021-08-20",
+            "data": [
+                {
+                    "routeId": "5355",
+                    "scheduleId": "27160930379974440",
+                    "dateDeparture": "2021-10-01",
+                    "timeDeparture": "00:00"
+                },
+                {
+                    "routeId": "5355",
+                    "scheduleId": "27160930379974441",
+                    "dateDeparture": "2021-10-01",
+                    "timeDeparture": "00:00"
+                },
+                {
+                    "routeId": "5355",
+                    "scheduleId": "27160930379974442",
+                    "dateDeparture": "2021-10-01",
+                    "timeDeparture": "00:00"
+                }
+            ]
+        }
     }
 }
